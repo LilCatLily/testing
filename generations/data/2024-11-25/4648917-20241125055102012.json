@@ -1,0 +1,221 @@
+{
+  "id": "4648917-20241125055102012",
+  "status": "succeeded",
+  "createdAt": "2024-11-25T05:51:02.012Z",
+  "totalCost": 29,
+  "cost": {
+    "base": 0,
+    "factors": {
+      "size": 3.859375,
+      "steps": 1.2333333333333334,
+      "scheduler": 1,
+      "batchSize": 1,
+      "quantity": 0
+    },
+    "tips": {
+      "civitai": 0,
+      "creators": 0
+    },
+    "total": 0
+  },
+  "tags": [
+    "civitai",
+    "img",
+    "txt2img",
+    "gen"
+  ],
+  "steps": [
+    {
+      "$type": "textToImage",
+      "timeout": "00:12:00",
+      "name": "$0",
+      "params": {
+        "baseModel": "Pony",
+        "prompt": "score_9, score_8_up, score_7_up, lilycat, cat ears, animal ear fluff, ((white hair, french braids)), medium breasts, cleavage, blue eyes, adorable, petite, ;), wintertime, christmas , outdoors, morning light, snowy, snow on ground, on all fours in snow, looking at viewer, white, christmassexyoutfit, white snow dress, white cat tail",
+        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, text, gaping, censored, deformed, bad hand, blurry, (watermark), ugly face, monochrome, muscular woman",
+        "quantity": 6,
+        "engine": null,
+        "width": 832,
+        "height": 1216,
+        "seed": 1689864981,
+        "draft": false,
+        "nsfw": true,
+        "workflow": "txt2img",
+        "clipSkip": 2,
+        "steps": 37,
+        "cfgScale": 7,
+        "sampler": "DPM2 a",
+        "fluxMode": null,
+        "fluxUltraRaw": false
+      },
+      "images": [
+        {
+          "type": "image",
+          "workflowId": "4648917-20241125055102012",
+          "stepName": "$0",
+          "jobId": "b0a6e5ff-c05c-4f36-a5a3-41aff5b80dc0",
+          "id": "W44DZ0G27ZWPTH4TWQ98YB6TW0",
+          "status": "succeeded",
+          "seed": 1689864981,
+          "completed": "2024-11-25T05:53:29.332Z",
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/W44DZ0G27ZWPTH4TWQ98YB6TW0",
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "type": "image",
+          "workflowId": "4648917-20241125055102012",
+          "stepName": "$0",
+          "jobId": "a52a71b7-50d3-4b10-bda7-beac3dad15bb",
+          "id": "ZWH6A2NS72MTPP15E6FDMC4KS0",
+          "status": "succeeded",
+          "seed": 1689864982,
+          "completed": "2024-11-25T05:53:26.860Z",
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/ZWH6A2NS72MTPP15E6FDMC4KS0",
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "type": "image",
+          "workflowId": "4648917-20241125055102012",
+          "stepName": "$0",
+          "jobId": "9bbd44b7-312e-4412-a96a-4d8a446f10cc",
+          "id": "SCBXEBR067W8D5YKY97FTB2AG0",
+          "status": "succeeded",
+          "seed": 1689864983,
+          "completed": "2024-11-25T05:52:51.389Z",
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/SCBXEBR067W8D5YKY97FTB2AG0",
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "type": "image",
+          "workflowId": "4648917-20241125055102012",
+          "stepName": "$0",
+          "jobId": "6dbe54b1-220c-4877-9b89-5adf87835798",
+          "id": "3H213V3F6V0N7G0VEEEN50N8H0",
+          "status": "succeeded",
+          "seed": 1689864984,
+          "completed": "2024-11-25T05:52:50.010Z",
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/3H213V3F6V0N7G0VEEEN50N8H0",
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "type": "image",
+          "workflowId": "4648917-20241125055102012",
+          "stepName": "$0",
+          "jobId": "45279688-2cec-4dd2-b7bc-df0f63fba832",
+          "id": "TDR6KMYHW93MGFE2ZDDJ41ZQP0",
+          "status": "succeeded",
+          "seed": 1689864985,
+          "completed": "2024-11-25T05:51:54.897Z",
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/TDR6KMYHW93MGFE2ZDDJ41ZQP0",
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "type": "image",
+          "workflowId": "4648917-20241125055102012",
+          "stepName": "$0",
+          "jobId": "d44ad849-6012-4dee-8626-f473c0ba60ce",
+          "id": "Z43PCMZP4HSRH8T75N8B89NNV0",
+          "status": "succeeded",
+          "seed": 1689864986,
+          "completed": "2024-11-25T05:53:53.400Z",
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/Z43PCMZP4HSRH8T75N8B89NNV0",
+          "width": 832,
+          "height": 1216
+        }
+      ],
+      "status": "succeeded",
+      "metadata": {
+        "resources": [
+          {
+            "id": 914390,
+            "strength": 1
+          },
+          {
+            "id": 520909,
+            "strength": 0.8
+          },
+          {
+            "id": 1036607,
+            "strength": 0.7
+          }
+        ],
+        "params": {
+          "prompt": "score_9, score_8_up, score_7_up, lilycat, cat ears, animal ear fluff, ((white hair, french braids)), medium breasts, cleavage, blue eyes, adorable, petite, ;), wintertime, christmas , outdoors, morning light, snowy, snow on ground, on all fours in snow, looking at viewer, white, christmassexyoutfit, white snow dress, white cat tail",
+          "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, text, gaping, censored, deformed, bad hand, blurry, (watermark), ugly face, monochrome, muscular woman",
+          "cfgScale": 7,
+          "sampler": "DPM2 a",
+          "seed": 1689864981,
+          "clipSkip": 2,
+          "steps": 37,
+          "quantity": 6,
+          "nsfw": true,
+          "draft": false,
+          "fluxUltraAspectRatio": "4",
+          "baseModel": "Pony",
+          "width": 832,
+          "height": 1216,
+          "workflow": "txt2img",
+          "experimental": false
+        },
+        "remixOfId": 41879927
+      },
+      "resources": [
+        {
+          "id": 520909,
+          "name": "v1.0",
+          "trainedWords": null,
+          "modelId": 468146,
+          "modelName": "Body Type Slider",
+          "modelType": "LORA",
+          "baseModel": "Pony",
+          "strength": 0.8,
+          "minStrength": -10,
+          "maxStrength": 10,
+          "covered": true,
+          "minor": false,
+          "available": true,
+          "fileSizeKB": 8583
+        },
+        {
+          "id": 1036607,
+          "name": "v2-PonyRealism2.2",
+          "trainedWords": [
+            "lilykat"
+          ],
+          "modelId": 640978,
+          "modelName": "LilyCat - Character",
+          "modelType": "LORA",
+          "baseModel": "Pony",
+          "strength": 0.7,
+          "minStrength": -1,
+          "maxStrength": 2,
+          "covered": true,
+          "minor": false,
+          "available": true,
+          "fileSizeKB": 223109
+        },
+        {
+          "id": 914390,
+          "name": "🌐 v2.2 Main + VAE",
+          "trainedWords": null,
+          "modelId": 372465,
+          "modelName": "Pony Realism 🔮",
+          "modelType": "Checkpoint",
+          "baseModel": "Pony",
+          "strength": 1,
+          "minStrength": -1,
+          "maxStrength": 2,
+          "covered": true,
+          "minor": false,
+          "available": true,
+          "fileSizeKB": 6938817
+        }
+      ]
+    }
+  ]
+}

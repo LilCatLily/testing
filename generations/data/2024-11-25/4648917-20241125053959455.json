@@ -1,0 +1,221 @@
+{
+  "id": "4648917-20241125053959455",
+  "status": "succeeded",
+  "createdAt": "2024-11-25T05:39:59.455Z",
+  "totalCost": 6,
+  "cost": {
+    "base": 0,
+    "factors": {
+      "size": 3.859375,
+      "steps": 1.3333333333333333,
+      "scheduler": 1,
+      "batchSize": 1,
+      "quantity": 0
+    },
+    "tips": {
+      "civitai": 0,
+      "creators": 0
+    },
+    "total": 0
+  },
+  "tags": [
+    "img",
+    "civitai",
+    "gen",
+    "txt2img"
+  ],
+  "steps": [
+    {
+      "$type": "textToImage",
+      "timeout": "00:15:00",
+      "name": "$0",
+      "params": {
+        "baseModel": "Pony",
+        "prompt": "score_9, score_8_up, score_7_up, photo, ((red hair)), french braids, medium breasts, cleavage, green eyes, adorable, petite, ;), seductive stare, bedroom, red/white plaid tank top, pulling on tank top, pink flowers tattoos on shoulders, midriff, navel, side view, from above, leaning against wall, cowboy shot, looking at viewer",
+        "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, text, gaping, censored, deformed, bad hand, blurry, (watermark), ugly face, monochrome, muscular woman, lip rings, lip piercings",
+        "quantity": 1,
+        "engine": null,
+        "width": 832,
+        "height": 1216,
+        "seed": 505932928,
+        "draft": false,
+        "nsfw": true,
+        "workflow": "txt2img",
+        "clipSkip": 2,
+        "steps": 40,
+        "cfgScale": 4,
+        "sampler": "DPM2 a",
+        "fluxMode": null,
+        "fluxUltraRaw": false
+      },
+      "images": [
+        {
+          "type": "image",
+          "workflowId": "4648917-20241125053959455",
+          "stepName": "$0",
+          "jobId": "0385cc68-e7f9-4d94-9186-d7b953bf778e",
+          "id": "V4QASAN7SHWAYZ3C6GKKF09K90",
+          "status": "succeeded",
+          "seed": 505932928,
+          "completed": "2024-11-25T05:47:49.047Z",
+          "url": "https://orchestration.civitai.com/v2/consumer/blobs/V4QASAN7SHWAYZ3C6GKKF09K90",
+          "width": 832,
+          "height": 1216
+        }
+      ],
+      "status": "succeeded",
+      "metadata": {
+        "resources": [
+          {
+            "id": 721415,
+            "strength": 1
+          },
+          {
+            "id": 520909,
+            "strength": 1.1
+          },
+          {
+            "id": 534952,
+            "strength": 1
+          },
+          {
+            "id": 558128,
+            "strength": -2
+          },
+          {
+            "id": 721833,
+            "strength": 0.5
+          },
+          {
+            "id": 721630,
+            "strength": 1
+          }
+        ],
+        "params": {
+          "prompt": "score_9, score_8_up, score_7_up, photo, ((red hair)), french braids, medium breasts, cleavage, green eyes, adorable, petite, ;), seductive stare, bedroom, red/white plaid tank top, pulling on tank top, pink flowers tattoos on shoulders, midriff, navel, side view, from above, leaning against wall, cowboy shot, looking at viewer",
+          "negativePrompt": "score_6, score_5, score_4, worst quality, low quality, text, gaping, censored, deformed, bad hand, blurry, (watermark), ugly face, monochrome, muscular woman, lip rings, lip piercings",
+          "cfgScale": 4,
+          "sampler": "DPM2 a",
+          "seed": 505932928,
+          "clipSkip": 2,
+          "steps": 40,
+          "quantity": 1,
+          "nsfw": true,
+          "draft": false,
+          "fluxUltraAspectRatio": "4",
+          "baseModel": "Pony",
+          "width": 832,
+          "height": 1216,
+          "workflow": "txt2img",
+          "experimental": false
+        }
+      },
+      "resources": [
+        {
+          "id": 520909,
+          "name": "v1.0",
+          "trainedWords": null,
+          "modelId": 468146,
+          "modelName": "Body Type Slider",
+          "modelType": "LORA",
+          "baseModel": "Pony",
+          "strength": 1.1,
+          "minStrength": -10,
+          "maxStrength": 10,
+          "covered": true,
+          "minor": false,
+          "available": true,
+          "fileSizeKB": 8583
+        },
+        {
+          "id": 721630,
+          "name": "v1",
+          "trainedWords": [
+            "lilycat",
+            "lilycat, cat ears, animal ear fluff"
+          ],
+          "modelId": 640978,
+          "modelName": "LilyCat - Character",
+          "modelType": "LORA",
+          "baseModel": "Pony",
+          "strength": 1,
+          "minStrength": 0.5,
+          "maxStrength": 1.5,
+          "covered": true,
+          "minor": false,
+          "available": true,
+          "fileSizeKB": 223101
+        },
+        {
+          "id": 534952,
+          "name": "v1.0",
+          "trainedWords": null,
+          "modelId": 481016,
+          "modelName": "Breast Size Slider - Pony",
+          "modelType": "LORA",
+          "baseModel": "Pony",
+          "strength": 1,
+          "minStrength": -10,
+          "maxStrength": 10,
+          "covered": true,
+          "minor": false,
+          "available": true,
+          "fileSizeKB": 8583
+        },
+        {
+          "id": 558128,
+          "name": "v1.0",
+          "trainedWords": null,
+          "modelId": 502132,
+          "modelName": "Breast Sag Slider - Pony/SDXL",
+          "modelType": "LORA",
+          "baseModel": "Pony",
+          "strength": -2,
+          "minStrength": -10,
+          "maxStrength": 10,
+          "covered": true,
+          "minor": false,
+          "available": true,
+          "fileSizeKB": 8583
+        },
+        {
+          "id": 721833,
+          "name": "v1.1",
+          "trainedWords": [
+            "lilycat",
+            "lilycat, cat ears, animal ear fluff"
+          ],
+          "modelId": 640978,
+          "modelName": "LilyCat - Character",
+          "modelType": "LORA",
+          "baseModel": "Pony",
+          "strength": 0.5,
+          "minStrength": 0.1,
+          "maxStrength": 1.5,
+          "covered": true,
+          "minor": false,
+          "available": true,
+          "fileSizeKB": 223101
+        },
+        {
+          "id": 721415,
+          "name": "v1",
+          "trainedWords": [
+            "score_9, score_8_up, source_anime"
+          ],
+          "modelId": 644900,
+          "modelName": "Honey Mix [PonyXL] High contrast anime checkpoint",
+          "modelType": "Checkpoint",
+          "baseModel": "Pony",
+          "strength": 1,
+          "minStrength": -1,
+          "maxStrength": 2,
+          "covered": true,
+          "minor": false,
+          "available": true,
+          "fileSizeKB": 6775431
+        }
+      ]
+    }
+  ]
+}
